@@ -1,0 +1,23 @@
+.MainArticle{
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  color: #246862;
+  padding: 6rem;
+  justify-content: center;
+}
+.mainTitleWrap{
+}
+.mainTitle{
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.mainImg{
+  background-image: url("../assets/mainImg.png");
+  background-size: cover;
+  background-position: center;
+  width: 40rem;
+  height: 40rem;
+  position: relative;
+}

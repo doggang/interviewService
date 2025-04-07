@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import "./App.css";
+import MainArticle from "./components/MainArticle";
+
 function App(){
   return (
   <div className="App">
@@ -7,9 +9,7 @@ function App(){
 
     <section>
       <article>
-        <div>
-
-        </div>
+        <MainArticle />
       </article>
       <article>
         <div> flex

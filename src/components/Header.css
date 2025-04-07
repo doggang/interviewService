@@ -1,23 +1,23 @@
 .HeaderUp{
     width: 100vw;
-    height: 30px;
+    height: 4vh;
     background-color: #F8E9D4;
 }
 
 .Header{
     display: flex;
     width: calc(100vw - 0px);
-    height: 70px;
+    height: 7vh;
     background-color: #246862;
     justify-content: space-around;
-    gap: 250px;
+    gap: 10rem;
     color: white;
-    padding: 0px 20px;
+    padding: 0 3rem;
 }
 
 .HeaderImg{
-    width: 100px;
-    height: 40px;
+    width: 12rem;
+    height: 6rem;
     background-size: cover;
     background-position: center;
     background-image: url("../assets/titleLogo.png");
@@ -25,7 +25,15 @@
 
 .HeaderContentWrap{
     display: flex;
-    gap: 60px;
-    font-size: 22px;
-    line-height: 65px;
+    font-size: 1.7rem;
+    line-height: 5.3rem;
+}
+.HeaderContentWrap div{
+    width: 100%;
+    padding: 0 3.1rem;
+}
+
+.HeaderContentWrap div:hover{
+    cursor: pointer;
+    background-color: #1c504c;
 }

@@ -1,0 +1,31 @@
+.HeaderUp{
+    width: 100vw;
+    height: 30px;
+    background-color: #F8E9D4;
+}
+
+.Header{
+    display: flex;
+    width: calc(100vw - 0px);
+    height: 70px;
+    background-color: #246862;
+    justify-content: space-around;
+    gap: 250px;
+    color: white;
+    padding: 0px 20px;
+}
+
+.HeaderImg{
+    width: 100px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../assets/titleLogo.png");
+}
+
+.HeaderContentWrap{
+    display: flex;
+    gap: 60px;
+    font-size: 22px;
+    line-height: 65px;
+}

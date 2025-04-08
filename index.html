@@ -5,9 +5,22 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
-  </head>
+        <!-- CSS도 필요하다면 여기에 링크 -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css" />  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <!-- 외부 JS 파일 삽입 (jQuery 사용하는 플러그인) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+    <script src="/asdf.js"></script> <!-- 여기서 $(...).fullpage() 호출 -->
   </body>
 </html>
+
+<head>
+
+</head>
+<body>
+  <div id="root"></div>
+
+</body>

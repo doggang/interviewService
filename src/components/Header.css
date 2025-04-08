@@ -1,23 +1,19 @@
-.HeaderUp{
-    width: 100vw;
-    height: 4vh;
-    background-color: #F8E9D4;
-}
-
 .Header{
     display: flex;
     width: calc(100vw - 0px);
-    height: 7vh;
+    height: 60px;
     background-color: #246862;
     justify-content: space-around;
     gap: 10rem;
-    color: white;
+    color: #ffffff;
     padding: 0 3rem;
 }
 
 .HeaderImg{
-    width: 12rem;
-    height: 6rem;
+    position: relative;
+    top: 8px;
+    width: 170px;
+    height: 45px;
     background-size: cover;
     background-position: center;
     background-image: url("../assets/titleLogo.png");
@@ -25,12 +21,12 @@
 
 .HeaderContentWrap{
     display: flex;
-    font-size: 1.7rem;
-    line-height: 5.3rem;
+    font-size: 22px;
+    line-height: 62px;
 }
 .HeaderContentWrap div{
     width: 100%;
-    padding: 0 3.1rem;
+    padding: 0 50px;
 }
 
 .HeaderContentWrap div:hover{

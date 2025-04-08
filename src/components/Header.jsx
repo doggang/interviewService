@@ -3,7 +3,6 @@ import "./Header.css";
 const Header = ()=>{
     return(
         <div>
-            <div className="HeaderUp"></div>
             <div className="Header">
                 <div className="HeaderImg"/>
                 <div className="HeaderContentWrap">

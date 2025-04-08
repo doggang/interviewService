@@ -1,23 +1,38 @@
 .MainArticle{
+  margin: 45px 0 0 0;
   display: flex;
   width: 100vw;
-  height: 80vh;
   color: #246862;
-  padding: 6rem;
   justify-content: center;
 }
-.mainTitleWrap{
-}
+
 .mainTitle{
-  font-size: 6rem;
+  padding: 20px 0;
+  font-size: 80px;
   font-weight: bold;
 }
-
+.subTitle{
+  font-size: 28px;
+}
 .mainImg{
   background-image: url("../assets/mainImg.png");
   background-size: cover;
   background-position: center;
-  width: 40rem;
-  height: 40rem;
+  width: 500px;
   position: relative;
+}
+.startBtn{
+  width: 240px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #246862;
+  border: none;
+  border-radius: 18px;
+  color: white;
+  margin: 40px 0;
+}
+.startBtn:hover{
+  cursor: pointer;
+  background-color: #184542;
+  transition-duration: 0.3s;
 }

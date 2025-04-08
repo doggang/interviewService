@@ -48,8 +48,8 @@ a {
 i, em {font-style: normal;}
 
 /* 헤더 */
-.header {position: fixed; top: 0; left: 0; width: 100%; background-color: rgba(255,255,255,0.2); z-index: 10000;}
-.header .logo {padding: 15px; font-size:25px; color: #fff; text-align: center;}
+.header {position: fixed; top: 0; left: 0; width: 100%; z-index: 10000;}
+.header .logo {text-align: center;}
 
 
 /* 페이지 앵커 */

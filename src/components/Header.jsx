@@ -2,8 +2,8 @@ import "./Header.css";
 
 const Header = ()=>{
     return(
-        <div>
-            <div className="Header">
+        <div className="header">
+            <div className="Header logo">
                 <div className="HeaderImg"/>
                 <div className="HeaderContentWrap">
                     <div>Home</div>

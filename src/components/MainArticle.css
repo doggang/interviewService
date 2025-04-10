@@ -1,14 +1,18 @@
 .MainArticle{
-  margin: 45px 0 0 0;
-  display: flex;
+  margin: 75px 0 0 0;
+  
   width: 100vw;
+  height: 90vh;
   color: #246862;
-  justify-content: center;
 }
-
+.mainArticleWrap{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 .mainTitle{
   padding: 20px 0;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
 }
 .subTitle{
@@ -18,7 +22,8 @@
   background-image: url("../assets/mainImg.png");
   background-size: cover;
   background-position: center;
-  width: 500px;
+  width: 470px;
+  height: 550px;
   position: relative;
 }
 .startBtn{

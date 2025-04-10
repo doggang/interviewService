@@ -1,5 +1,4 @@
 import MainArticle from "./MainArticle";
-import SubArticle from "./SubArticle";
 
 const FullPage=()=>{
   return(
@@ -7,12 +6,12 @@ const FullPage=()=>{
       <div className="section" id="section1">
         <div className="section-inner">
             <MainArticle />
+            
         </div>
       </div>
       <div className="section" id="section2">
         <div className="section-inner">
           <div>
-            <SubArticle />
           </div>
         </div>
       </div>

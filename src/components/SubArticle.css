@@ -1,0 +1,56 @@
+.subArticleWrap{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px 0;
+}
+.subArticleContainer{
+  display: flex;
+  width: 538px;
+  height: 230px;
+  color: #08363B;
+  justify-content: center;
+  border: solid 2px #ECE2D4;
+  border-radius: 30px;
+  background-color: #FDF3E1;
+}
+.subArticleMainWrap{
+  position: relative;
+  width: 366px;
+  top: 10px;
+  left: 40px;
+  padding: 30px;
+}
+.subArticleImg{
+  position: relative;
+  top: 40px;
+  left: 40px;
+  background-size: cover;
+  background-position: center;
+  width: 130px;
+  height: 130px;
+}
+#profile{
+  background-image: url('../assets/profileImg.png');
+
+}
+#simulate{
+  background-image: url('../assets/simulateImg.png');
+
+}
+#manage{
+  background-image: url('../assets/manageImg.png');
+
+}
+#review{
+  background-image: url('../assets/review.png');
+
+}
+.subArticleMain{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.subArticleSub{
+  font-size: 22px;
+}

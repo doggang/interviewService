@@ -6,11 +6,11 @@ const Header = ()=>{
             <div className="Header logo">
                 <div className="HeaderImg"/>
                 <div className="HeaderContentWrap">
-                    <div>Home</div>
-                    <div>Profile</div>
-                    <div>Interview</div>
-                    <div>Questions</div>
-                    <div>History</div>
+                    <a href="#page1">Home</a>
+                    <a href="#page">Profile</a>
+                    <a href="#page">Interview</a>
+                    <a href="#page">Questions</a>
+                    <a href="#page">History</a>
                 </div>
             </div>
         </div>

@@ -24,12 +24,12 @@
     font-size: 22px;
     line-height: 62px;
 }
-.HeaderContentWrap div{
+.HeaderContentWrap a{
     width: 100%;
     padding: 0 50px;
 }
 
-.HeaderContentWrap div:hover{
+.HeaderContentWrap a:hover{
     cursor: pointer;
     background-color: #1c504c;
 }

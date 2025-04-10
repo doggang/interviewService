@@ -36,7 +36,7 @@ function App(){
     //-----------------------애니메이션 라이브러리-----------------------//
   return (
   <div className="App">
-
+    
     <Aside />
 
     <Header />

@@ -6,7 +6,7 @@ const SubArticle=()=>{
                 <div className="subArticleContainer">
                     <div className="subArticleImg" id="profile"/>
                     <div className="subArticleMainWrap">
-                        <div className="subArticleMain">Enter Your Profile</div>
+                        <div className="subArticleMain" >Enter Your Profile</div>
                         <div className="subArticleSub">Provide basic information<br />to generate tallored questions</div>
                     </div>
                 </div>

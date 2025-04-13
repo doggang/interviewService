@@ -7,7 +7,7 @@ const Header = ()=>{
                 <div className="HeaderImg"/>
                 <div className="HeaderContentWrap">
                     <a href="#page1">Home</a>
-                    <a href="#page">Profile</a>
+                    <a href="#page2">Profile</a>
                     <a href="#page">Interview</a>
                     <a href="#page">Questions</a>
                     <a href="#page">History</a>

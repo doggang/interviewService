@@ -1,0 +1,71 @@
+#section2{}
+.profileSetup{
+  background-color: #F8E9D4;
+  color: #1A3F41;
+  width: 420px;
+  height: 600px;
+  overflow-y : scroll;
+  z-index: 3;
+  padding: 0px 125px;
+  position: relative;
+  top: -200px;
+  z-index: 3;
+}
+.profileSetupTitle{
+  position: relative;
+  top: 0px;
+  margin: 30px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 44px;
+  z-index: 3;
+}
+.profiletSetupWrap{
+  position: relative;
+  top: 10px;
+  margin: 20px 0;
+  z-index: 3;
+}
+label{
+  font-size: 20px;
+  line-height: 30px;
+}
+.profileSetupInput{
+  border:2px solid #C6B694;
+  border-radius: 6px;
+  width: 380px;
+  height: 20px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 17px;
+}
+.saveBtn{
+  font-size: 26px;
+  position: absolute;
+  top: 880px;
+  left: 50%;
+  margin-left: -100px;
+  border-radius: 10px;
+  width: 200px;
+  height: 65px;
+  color: white;
+  font-weight: bold;
+  background-color:#173E41;
+  line-height: 50px;
+  z-index: 3;
+}
+.saveBtn:hover{
+  cursor: pointer;
+  background-color:#0f282a;
+  color: rgb(200, 200, 200);
+}
+.profileSetupImg{
+  position: absolute;
+  top: 60px;
+  left: 332px;
+  background-image: url("../assets/profileSetup.png");
+  background-position: center;
+  width: 800px;
+  height: calc(100vh - 50px);
+  z-index: 2;
+}
